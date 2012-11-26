@@ -15,7 +15,7 @@ public class Commentaire extends Information {
 	 * @param message
 	 * @param date
 	 */
-	public Commentaire(String emetteur, String message, long date) {
+	public Commentaire(Utilisateur emetteur, String message, long date) {
 		super(emetteur, message, date);
 		// TODO Stub du constructeur généré automatiquement
 	}
